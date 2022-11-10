@@ -43,14 +43,15 @@ iframe#tela {
 }
 
 section#redes-sociais img {
-    width: 50px;
+    width: 75px;
     display: block;
-    margin: 15px;
+    padding: 10px;
     border-radius: 50%;
     box-shadow: 2p 2px rgba(0, 0, 0, 0.422);
 
 }
 
 section#redes-sociais img:hover {
-    border: 2px solid white;
+    transform: scale(1.1)
+    translate(2px, 2px)
 }
